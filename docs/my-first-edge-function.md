@@ -78,5 +78,16 @@ commit and push
 ```
 git add .
 git commit -m "initial"
-git push 
+git push --set-upstream origin master
 ```
+deploy to netlify
+```
+ntl init
+```
+and then
+- choose: "create and configure an new site"
+- give a name to your site, i've have choose "edgerunner"
+- leave default (empty) for the build command and build folder
+
+now you can test your function from your site, for me is
+https://edgerunner.netlify.app/test
