@@ -66,6 +66,17 @@ and open a browser to [localhost:8888/test]()
 
 8: deploy
 
+create a repo  like
 ```
 gh repo create edgerunner --public
+```
+add origin :
+```
+git remote add origin git@github.....
+```
+commit and push
+```
+git add .
+git commit -m "initial"
+git push 
 ```
