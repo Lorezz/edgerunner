@@ -1,4 +1,5 @@
-This is a guide on how to use edge functions on netlify, and about netlify advanced next.js toolkit
+# My First edge function
+This is a guide on how to use edge functions on netlify
 
 Below the list of commands done to create this branches.
 
