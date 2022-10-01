@@ -1,0 +1,16 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Florence",
+			"country": {
+				"code": "IT",
+				"name": "Italy"
+			},
+			"subdivision": {
+				"code": "52",
+				"name": "Tuscany"
+			}
+		},
+		"timestamp": 1664638691138
+	}
+}
