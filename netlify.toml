@@ -1,3 +1,23 @@
 [[edge_functions]]
 function = "hello"
 path = "/test"
+
+# [[edge_functions]]
+# function = "auth"
+# path = "/admin"
+
+# [[edge_functions]]
+# function = "injector"
+# path = "/admin"
+
+# [[edge_functions]]
+# function = "auth"
+# path = "/blog/*"
+
+# [[edge_functions]]
+# function = "rewriter"
+# path = "/blog/*"
+
+# [[edge_functions]]
+# function = "common"
+# path = "/*"
