@@ -1,3 +1,8 @@
+[build]
+command = "yarn build"
+functions = "netlify/functions"
+publish = ".next"
+
 [[edge_functions]]
 function = "localize"
 path = "/*"

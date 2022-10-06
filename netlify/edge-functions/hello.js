@@ -5,14 +5,13 @@ export default async (request, context) => {
   const country_code = context.cookies.get('country_code');
   console.log('hello country_code', country_code);
 
-  const joke = await fetch('https://icanhazdadjoke.com/', {
-    headers: {
-      Accept: 'application/json',
-    },
-  });
-
-  const jsonData = await joke.json();
+  // const joke = await fetch('https://icanhazdadjoke.com/', {
+  //   headers: {
+  //     Accept: 'application/json',
+  //   },
+  // });
+  // const jsonData = await joke.json();
 
   // return new Response('Hello world!!!! ^^');
-  return context.json({ geo: context.geo, data: jsonData });
+  return context.json({ geo: context.geo, data: {} });
 };
