@@ -5,6 +5,6 @@ export default (request, context) => {
   });
   context.cookies.set({
     name: 'user',
-    value: 'lorezz',
+    value: 'loreno',
   });
 };

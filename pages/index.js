@@ -18,13 +18,16 @@ export default function Home({ country, user, date }) {
         <p>{date}</p>
       </main>
       <footer className={styles.footer}></footer>
+      <form action="/api/hello">
+        <input type="email" />
+      </form>
     </div>
   );
 }
 
 export function getServerSideProps({ req, res }) {
   // console.log('headers', req.headers);
-  console.log('cookies');
+  // console.log('cookies', req.cookies.user);
   return {
     props: {
       country: req.cookies.country_code || 'nonso',

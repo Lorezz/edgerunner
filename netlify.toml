@@ -11,6 +11,10 @@ path = "/*"
 function = "hello"
 path = "/hello"
 
+[[edge_functions]]
+function = "basic"
+path = "/basic"
+
 #CHAIN EXAMPLES
 
 # [[edge_functions]]
