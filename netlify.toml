@@ -1,6 +1,12 @@
 [[edge_functions]]
+function = "localize"
+path = "/*"
+
+[[edge_functions]]
 function = "hello"
-path = "/test"
+path = "/hello"
+
+#CHAIN EXAMPLES
 
 # [[edge_functions]]
 # function = "auth"

@@ -8,10 +8,11 @@ export default function About({ title }) {
   );
 }
 
-export function getStaticProps() {
+export function getServerSideProps({ query }) {
+  console.log('context', query);
   return {
     props: {
-      title: 'About',
+      title: query?.locale === 'it' ? 'Chi Siamo' : 'About',
     },
   };
 }
